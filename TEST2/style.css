@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    margin-top: 50px;
+}
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+}
+.yellow {
+    background-color: yellow;
+}
+.purple {
+    background-color: purple;
+}
+
+#square {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: 20px auto;
+    display: block; /* Начальное состояние - блок видим */
+}
+#toggle-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: black;
+}
+
+#counter {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 50px;
+}
